@@ -1,12 +1,10 @@
 import React from 'react';
-import livingRoom from '../assets/images/living-room.jpg';
+import './Item.css';
 
 const item = () => {
   return (
     <div>
-      <img
-        src={livingRoom}
-        alt="Living room" />
+      <div className="image"></div>
       <p>This is an item</p>
       <p>Another line</p>
     </div>
