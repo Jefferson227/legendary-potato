@@ -5,7 +5,13 @@ import Item from './Item/Item';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="flex-container">
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
         <Item />
       </div>
     );
