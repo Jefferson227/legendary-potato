@@ -3,7 +3,7 @@ import './Item.css';
 
 const item = () => {
   return (
-    <div className="flex-item">
+    <div>
       <div className="image"></div>
       <h3>Sofás</h3>
       <p>Valor aproximado: R$ 25,00</p>

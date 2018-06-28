@@ -1,6 +1,6 @@
 .flex-container {
-  margin: 25px 0 auto;
+  margin: 25px 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
