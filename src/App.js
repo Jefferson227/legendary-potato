@@ -6,13 +6,40 @@ class App extends Component {
   render() {
     return (
       <div className="flex-container">
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
+
+        <Item
+          name="Sofás"
+          value="25,00"
+          stores="Freitas Varejo" />
       </div>
     );
   }
