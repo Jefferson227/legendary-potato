@@ -1,8 +1,22 @@
+.item {
+  margin-bottom: 25px;
+  border: 1px solid #000;
+}
+
 .image {
   background: url(../assets/images/living-room.jpg);
   width: 320px;
   height: 220px;
   margin: 0 auto;
+}
+
+.item .info {
+  display: inline-block;
+  width: 100%;
+}
+
+.item .info p {
+  margin-left: 10px;
 }
 
 h3 {
