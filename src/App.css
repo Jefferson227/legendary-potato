@@ -1,6 +1,35 @@
 .flex-container {
-  margin: 25px 50px;
+  margin: 25px 156px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+/* In case of an odd number of items, align the last items to the left */
+.flex-container:after {
+  content: "";
+  flex: auto;
+}
+
+@media only screen and (max-width: 972px) {
+  .flex-container {
+    justify-content: center;
+  }
+
+  .flex-container:after {
+    content: "";
+    flex: inherit;
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .flex-container {
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .flex-container:after {
+    content: "";
+    flex: inherit;
+  }
 }
